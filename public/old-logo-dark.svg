@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 160" fill="none">
+  <defs>
+    <linearGradient id="iconGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="txtGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+  </defs>
+  <!-- Icon: 56x56, vertically centred in 160px => top = 52 -->
+  <rect x="0" y="52" width="56" height="56" rx="14" fill="url(#iconGrad2)"/>
+  <path d="M28 65 L20 80 h6 l-1.5 15 L35 80 h-6 L30.5 65 Z" fill="white" stroke="white" stroke-width="0.5" stroke-linejoin="round"/>
+  <!-- Wordmark — Strata in dark, Router in gradient -->
+  <text x="72" y="122" font-family="'Bricolage Grotesque','Plus Jakarta Sans','Inter',system-ui,-apple-system,sans-serif" font-weight="800" font-size="88" letter-spacing="-3">
+    <tspan fill="#0f172a">Strata</tspan><tspan fill="url(#txtGrad2)">Router</tspan>
+  </text>
+</svg>

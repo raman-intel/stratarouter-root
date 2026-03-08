@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 195" fill="none">
+  <defs>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <filter id="iconGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Icon: 150×150 centered vertically in 195px height (top offset = 22.5px) -->
+  <!-- Scale factor: 150/32 = 4.6875 -->
+  <g transform="translate(22, 22.5) scale(4.6875)">
+    <!-- Glow layer -->
+    <rect width="32" height="32" rx="8" fill="url(#iconGrad)" opacity="0.35" filter="url(#iconGlow)"/>
+    <!-- Icon body -->
+    <rect width="32" height="32" rx="8" fill="url(#iconGrad)"/>
+    <!-- Lightning bolt -->
+    <path
+      d="M16 7L9 16h6l-1 9 8-9h-6l1-9z"
+      fill="white"
+      stroke="white"
+      stroke-width="0.5"
+      stroke-linejoin="round"
+    />
+  </g>
+
+  <!-- Wordmark — starts at x=200, baseline y=142 for 110px Bricolage Grotesque 800 -->
+  <text
+    x="200"
+    y="142"
+    font-family="'Bricolage Grotesque', 'DM Sans', 'Inter', system-ui, -apple-system, sans-serif"
+    font-weight="800"
+    font-size="110"
+    letter-spacing="-4"
+  >
+    <tspan fill="white">Strata</tspan><tspan fill="url(#textGrad)">Router</tspan>
+  </text>
+</svg>
