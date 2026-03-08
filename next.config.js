@@ -1,43 +1,20 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // ─── Static export for Cloudflare Pages ──────────────────────────
+  output: 'export',
+  trailingSlash: true,
+
   reactStrictMode: true,
+
+  // Image optimisation must be disabled for static export
+  // (no Next.js server available at runtime on Cloudflare Pages)
   images: {
-    domains: [],
-    unoptimized: false,
+    unoptimized: true,
   },
-  async headers() {
-    return [
-      {
-        source: '/(.*)',
-        headers: [
-          { key: 'X-Content-Type-Options', value: 'nosniff' },
-          { key: 'X-Frame-Options', value: 'DENY' },
-          { key: 'X-XSS-Protection', value: '1; mode=block' },
-          { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
-        ],
-      },
-    ]
-  },
-  async redirects() {
-    return [
-      // /docs → GitHub README (docs.stratarouter.com does not yet exist)
-      {
-        source: '/docs',
-        destination: 'https://github.com/agentdyne9/SRouter2#readme',
-        permanent: false,
-      },
-      {
-        source: '/docs/:path*',
-        destination: 'https://github.com/agentdyne9/SRouter2#readme',
-        permanent: false,
-      },
-      {
-        source: '/github',
-        destination: 'https://github.com/agentdyne9/SRouter2',
-        permanent: false,
-      },
-    ]
-  },
+
+  // headers() and redirects() are NOT supported with output:'export'.
+  // Security headers → handled by public/_headers
+  // Redirects        → handled by public/_redirects
 }
 
 module.exports = nextConfig
