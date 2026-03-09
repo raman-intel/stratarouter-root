@@ -202,7 +202,7 @@ export default function AboutPage() {
                 <ExternalLink size={13} />
               </a>
               <a
-                href="https://github.com/agentdyne9/SRouter2"
+                href="https://github.com/ai-deeptech/stratarouter"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary text-[13.5px] px-5 py-2.5"

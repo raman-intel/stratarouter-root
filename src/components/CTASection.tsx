@@ -138,7 +138,7 @@ export default function CTASection() {
             <ArrowRight size={16} />
           </Link>
           <a
-            href="https://github.com/agentdyne9/SRouter2#readme"
+            href="https://docs.stratarouter.com"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-xl text-[15px] font-semibold transition-all"
@@ -153,7 +153,7 @@ export default function CTASection() {
             Read the Docs
           </a>
           <a
-            href="https://github.com/agentdyne9/SRouter2"
+            href="https://github.com/ai-deeptech/stratarouter"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl text-[15px] font-semibold transition-all"

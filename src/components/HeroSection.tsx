@@ -164,7 +164,7 @@ export default function HeroSection() {
       >
         <div className="flex justify-center">
           <a
-            href="https://github.com/agentdyne9/SRouter2/releases"
+            href="https://github.com/ai-deeptech/stratarouter/releases"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full border border-slate-200 bg-white hover:bg-slate-50 hover:border-slate-300 shadow-sm transition-all group"
@@ -238,7 +238,7 @@ export default function HeroSection() {
                 <ArrowRight size={15} />
               </Link>
               <a
-                href="https://github.com/agentdyne9/SRouter2"
+                href="https://docs.stratarouter.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary text-[15px] px-7 py-3.5"
@@ -246,7 +246,7 @@ export default function HeroSection() {
                 Read the docs
               </a>
               <a
-                href="https://github.com/agentdyne9/SRouter2"
+                href="https://github.com/ai-deeptech/stratarouter"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-ghost text-[15px] px-4 py-3.5 text-slate-600"

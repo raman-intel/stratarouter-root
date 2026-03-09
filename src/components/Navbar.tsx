@@ -17,11 +17,11 @@ const navLinks = [
   {
     label: 'Developers',
     children: [
-      { label: 'Documentation', href: 'https://github.com/agentdyne9/SRouter2#readme',      desc: 'Full API reference & guides',  external: true },
-      { label: 'Quick Start',   href: 'https://github.com/agentdyne9/SRouter2#quickstart',  desc: '5-min tutorial',               external: true },
-      { label: 'Integrations',  href: '/#integrations',                                      desc: 'LangChain, CrewAI, AutoGen & more' },
-      { label: 'Changelog',     href: 'https://github.com/agentdyne9/SRouter2/releases',    desc: "What's new in v2.1",           external: true },
-      { label: 'GitHub',        href: 'https://github.com/agentdyne9/SRouter2',             desc: 'Open source core',             external: true },
+      { label: 'Documentation', href: 'https://docs.stratarouter.com',                              desc: 'Full API reference & guides',  external: true },
+      { label: 'Quick Start',   href: 'https://docs.stratarouter.com',                              desc: '5-min tutorial',               external: true },
+      { label: 'Integrations',  href: '/#integrations',                                             desc: 'LangChain, CrewAI, AutoGen & more' },
+      { label: 'Changelog',     href: 'https://github.com/ai-deeptech/stratarouter/releases',       desc: "What's new in v2.1",           external: true },
+      { label: 'GitHub',        href: 'https://github.com/ai-deeptech/stratarouter',                desc: 'Open source core',             external: true },
     ],
   },
   { label: 'Pricing',    href: '/pricing' },
@@ -142,7 +142,7 @@ export default function Navbar() {
             {/* ── Desktop CTA ── */}
             <div className="hidden lg:flex items-center gap-2">
               <a
-                href="https://github.com/agentdyne9/SRouter2"
+                href="https://github.com/ai-deeptech/stratarouter"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-ghost flex items-center gap-1.5 text-[13px] text-slate-500 hover:text-slate-800 px-2.5"
@@ -248,7 +248,7 @@ export default function Navbar() {
                 Enterprise
               </Link>
               <a
-                href="https://github.com/agentdyne9/SRouter2"
+                href="https://github.com/ai-deeptech/stratarouter"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 py-2.5 text-[13px] font-semibold text-slate-500 hover:text-slate-800 transition-colors"

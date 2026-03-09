@@ -39,8 +39,8 @@ const channels = [
     border: 'rgba(15,23,42,0.12)',
     title: 'Open Source & Bugs',
     desc: 'Bug reports, feature requests, and open-source contributions.',
-    action: 'github.com/agentdyne9/SRouter2',
-    href: 'https://github.com/agentdyne9/SRouter2/issues',
+    action: 'github.com/ai-deeptech/stratarouter',
+    href: 'https://github.com/ai-deeptech/stratarouter/issues',
     label: 'Open an issue',
     sla: 'Community-monitored',
   },
@@ -51,8 +51,8 @@ const channels = [
     border: 'rgba(8,145,178,0.15)',
     title: 'Documentation',
     desc: 'API reference, tutorials, integration guides, and examples.',
-    action: 'github.com/agentdyne9/SRouter2',
-    href: 'https://github.com/agentdyne9/SRouter2#readme',
+    action: 'docs.stratarouter.com',
+    href: 'https://docs.stratarouter.com',
     label: 'Browse the docs',
     sla: 'Always available',
   },
@@ -150,7 +150,7 @@ export default function ContactPage() {
             </p>
             <div className="flex flex-wrap justify-center gap-3">
               <a
-                href="https://github.com/agentdyne9/SRouter2#quickstart"
+                href="https://docs.stratarouter.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary text-[13.5px] px-5 py-2.5"
@@ -158,7 +158,7 @@ export default function ContactPage() {
                 5-Minute Quickstart
               </a>
               <a
-                href="https://github.com/agentdyne9/SRouter2#readme"
+                href="https://docs.stratarouter.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary text-[13.5px] px-5 py-2.5"

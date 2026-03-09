@@ -1,3 +1,5 @@
-/docs           https://github.com/agentdyne9/SRouter2#readme  302
-/docs/*         https://github.com/agentdyne9/SRouter2#readme  302
-/github         https://github.com/agentdyne9/SRouter2          302
+/docs           https://docs.stratarouter.com          302
+/docs/*         https://docs.stratarouter.com          302
+/github         https://github.com/ai-deeptech/stratarouter  302
+/runtime        https://github.com/inteleion-ai/stratarouter-runtime  302
+/status         https://status.stratarouter.com        302

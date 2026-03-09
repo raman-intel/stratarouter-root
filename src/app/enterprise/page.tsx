@@ -342,7 +342,7 @@ export default function EnterprisePage() {
                   Contact Sales
                 </a>
                 <a
-                  href="https://github.com/agentdyne9/SRouter2#enterprise"
+                  href="https://docs.stratarouter.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-secondary px-8 py-3.5 text-[14px]"

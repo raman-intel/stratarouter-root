@@ -6,16 +6,16 @@ type FooterLink = { label: string; href: string; external?: boolean }
 const footerLinks: Record<string, FooterLink[]> = {
   Product: [
     { label: 'Core Engine',           href: '/#features' },
-    { label: 'Runtime',               href: '/#features' },
+    { label: 'Runtime',               href: 'https://github.com/inteleion-ai/stratarouter-runtime', external: true },
     { label: 'Enterprise',            href: '/enterprise' },
     { label: 'Pricing',               href: '/pricing' },
-    { label: 'Changelog',             href: 'https://github.com/agentdyne9/SRouter2/releases', external: true },
+    { label: 'Changelog',             href: 'https://github.com/ai-deeptech/stratarouter/releases', external: true },
   ],
   Developers: [
-    { label: 'Documentation',         href: 'https://github.com/agentdyne9/SRouter2#readme',      external: true },
-    { label: 'Quick Start',           href: 'https://github.com/agentdyne9/SRouter2#quickstart',  external: true },
-    { label: 'API Reference',         href: 'https://github.com/agentdyne9/SRouter2',             external: true },
-    { label: 'GitHub',                href: 'https://github.com/agentdyne9/SRouter2',             external: true },
+    { label: 'Documentation',         href: 'https://docs.stratarouter.com',                              external: true },
+    { label: 'Quick Start',           href: 'https://docs.stratarouter.com',                              external: true },
+    { label: 'Core on GitHub',        href: 'https://github.com/ai-deeptech/stratarouter',                external: true },
+    { label: 'Runtime on GitHub',     href: 'https://github.com/inteleion-ai/stratarouter-runtime',       external: true },
     { label: 'PyPI Package',          href: 'https://pypi.org/project/stratarouter',              external: true },
   ],
   'Use Cases': [
@@ -27,9 +27,10 @@ const footerLinks: Record<string, FooterLink[]> = {
   ],
   Company: [
     { label: 'About',                 href: '/about' },
-    { label: 'Inteleion.com',         href: 'https://inteleion.com',  external: true },
+    { label: 'Inteleion.com',         href: 'https://inteleion.com',            external: true },
     { label: 'Blog',                  href: '/blog' },
     { label: 'Contact',               href: '/contact' },
+    { label: 'Status',                href: 'https://status.stratarouter.com',  external: true },
     { label: 'Privacy Policy',        href: '/privacy' },
     { label: 'Terms of Service',      href: '/terms' },
   ],
@@ -70,7 +71,7 @@ export default function Footer() {
             {/* Social icons */}
             <div className="flex items-center gap-2.5 mb-6">
               <a
-                href="https://github.com/agentdyne9/SRouter2"
+                href="https://github.com/ai-deeptech/stratarouter"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2.5 rounded-xl border border-slate-200 text-slate-500 hover:text-slate-800 hover:border-slate-300 hover:bg-slate-50 transition-all"

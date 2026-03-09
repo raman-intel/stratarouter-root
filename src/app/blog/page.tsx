@@ -89,7 +89,7 @@ const posts = [
   },
 ]
 
-const GITHUB_BLOG_BASE = 'https://github.com/agentdyne9/SRouter2'
+const GITHUB_BLOG_BASE = 'https://github.com/ai-deeptech/stratarouter'
 
 export default function BlogPage() {
   const featured = posts.find((p) => p.featured)!
